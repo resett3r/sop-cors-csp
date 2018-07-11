@@ -1,0 +1,12 @@
+<html>
+<script>
+var url = "http://example2.com/test/secret-code.php";
+var xmlHttp = new XMLHttpRequest();
+xmlHttp.open('GET', url, true);
+var mimeType= "text/html";
+xmlHttp.setRequestHeader('Content-Type', mimeType);
+xmlHttp.send (null);
+alert(xmlHttp.responseText);
+</script>
+</body>
+</html>
